@@ -43,7 +43,7 @@ this in a couple of ways:
    form as nconf.defaults object in in `lib/config.js`.
 
 2. Set specific environment variables. The ones you can set are those used in
-   `nconf.defaults. This useful for deployment on Heroku where environment
+   `nconf.defaults`. This useful for deployment on Heroku where environment
    variables are default way to configure.
 
 ## Deploy (to Heroku)
