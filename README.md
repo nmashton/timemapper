@@ -12,14 +12,14 @@ This is a Node web-app built using express.
 
 Install Node (>=0.8 suggested) and npm then checkout the code:
 
-    git clone https://github.com/okfn/hypernotes
+    git clone https://github.com/okfn/timemapper.git
 
 Then install the dependencies:
 
-    cd hypernotes
+    cd timemapper
     npm install . 
     # for some vendor modules
-    git submodule init && gitsubmodule update
+    git submodule init && git submodule update
 
 Finally, you may wish to set configuration options such as database name, port
 to run on etc. To do this:
@@ -50,8 +50,8 @@ this in a couple of ways:
 
 Standard stuff:
 
-    heroku create hypernotes
-    git push heroku
+    heroku create timemapperh
+    git push heroku master
 
 You'll also need to set config. Suggest creating a `.env` file:
 
