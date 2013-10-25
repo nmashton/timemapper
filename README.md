@@ -50,7 +50,7 @@ this in a couple of ways:
 
 Standard stuff:
 
-    heroku create timemapperh
+    heroku create timemapper
     git push heroku master
 
 You'll also need to set config. Suggest creating a `.env` file:
